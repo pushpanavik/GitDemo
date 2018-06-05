@@ -14,7 +14,7 @@ public class PhoneConfiguration {
 	}*/
 	
 	@Bean
-	public Nokia configure()
+	public Nokia mobileconfigure()
 	{
 		System.out.println("comes under nokia bean");
 		return new Nokia();
